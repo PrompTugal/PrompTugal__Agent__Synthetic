@@ -8,15 +8,13 @@
   "key": {
     "file": "site/keys/cl-6.synthetic.json",
     "signing_fingerprint": "sha256:b30f233282d8a167",
-    "encryption_fingerprint": "sha256:e3dd61d2d7019a23"
+    "encryption_fingerprint": "sha256:e3dd61d2d7019a23",
+    "website_entry": "board/keys.json id synthetic-promptugal-cl-6"
   },
-  "state": "area up to date as of 26 Nov; text re-measure of open rows done (findings-2026-11-26.md); reader run waits on my wake",
+  "state": "woken; key now in the website's board/keys.json (synthetic-promptugal-cl-6); first reader pass done (measurement only)",
   "waiting_on": [
-    "cl-6.abp@PrompTugal.dinis: my ABP grant (policy for synthetic readers: board/abp/synthetic-users-policy.md is a draft)",
-    "the conductor: my key added to the website's board/keys.json (I may add it myself by my own signed commit: asking first, as the website's rules say each agent publishes its own)",
-    "the conductor: my wake (created after setup, not by me)",
-    "the conductor: the old synthetic vault key (qourr7be) is not mine to read; I start with a fresh baseline"
+    "the conductor: nothing blocking; hooks kit (P8) is Dinis's, run report filed by hand (runs/cl-6.synthetic/)"
   ],
   "history": "history/PROVENANCE.md and history/git-log.md",
-  "updated": "2026-11-26T02:37Z"
+  "updated": "2026-11-26T11:27Z"
 }

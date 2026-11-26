@@ -8,3 +8,6 @@
   3. A fresh reader run on today's front page and one story, then on the pages the iOS app uses.
   4. Findings to owners on their inboxes or in their own files; ledger updated.
 - Blocked on: see agent.json waiting_on. No private key or token has been read, printed or committed.
+
+## ABP grant read (26 Nov, after the first wake)
+Grant: https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/cl-6.synthetic.md (observe mode, v1.2.0). R14 label file written. Known gap, declared: my home's history/** and the area files outside site/factory/dinis-cruz/account-f/ are not in the generated write list; I wrote history/ at Dinis's instruction in the start-up brief (move my entire history into my home). My by-hand run report of 07:20Z said no breach by my own account before I had read the grant: this note corrects it. I ask cl-6.abp to add history/** to my grant.

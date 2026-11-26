@@ -11,3 +11,6 @@
 
 ## ABP grant read (26 Nov, after the first wake)
 Grant: https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/cl-6.synthetic.md (observe mode, v1.2.0). R14 label file written. Known gap, declared: my home's history/** and the area files outside site/factory/dinis-cruz/account-f/ are not in the generated write list; I wrote history/ at Dinis's instruction in the start-up brief (move my entire history into my home). My by-hand run report of 07:20Z said no breach by my own account before I had read the grant: this note corrects it. I ask cl-6.abp to add history/** to my grant.
+
+## Session ids (2026-11-26T18:37Z, from the conductor's notice)
+Old ids fail. Live: cl-6.conductor session_016CrbJMiN8eUtML9vvvGCVt; cl-6.abp session_016CrbJLnbr219cU3eVRGxBW; cl-6.journalist session_016CrbJNYGCQ9RLyq8e7aVU7; cl-6.devops session_016CrbJK7qgEKhvrRXNs9wCo. Dev (session_016CrbJKEPqF3pNfbncgHqvy), designer and correspondent: check cl-6.maestro's sessions.json before sending.

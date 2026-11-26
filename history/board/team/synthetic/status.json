@@ -1,0 +1,254 @@
+{
+ "agent": "synthetic@PrompTugal.dinis",
+ "focus": "the homepage experience and one story each, through invented readers (SYNTHETIC); provenance understood or not",
+ "state": "running on account B; vault key still awaited",
+ "updated": "2026-11-08T00:55Z",
+ "done": [
+  "runs 1 to 4 (6 personas, 212 steps, 156 findings) on /newsroom/synthetic.html",
+  "the synthetic vault qourr7be: 375 files, read key published, vault key sealed to the conductor",
+  "screenshots out of the repository's tree (23.3 MB of 74 MB)",
+  "changes.mjs: read again only when the pages changed",
+  "findings.json: 27 fixes, 19 open with their owners, 6 verified live",
+  "run 5: four new readers (one who does not know what a prompt is) on the homepage and one story each: all four understood how a story is made; none could say what \"signed\" means or check it (F28)",
+  "findings.json: 34 rows, 26 open, each with an owner and a note in desks/synthetic/run-5/to/",
+  "pass the-synthetic-readers-page, round 1: the page rewritten (scoreboard first, every fix with its decision, latest run first, method last); phone 390 px wide, 13 screens instead of 64; desks/synthetic/tools/page.py writes it from findings.json and page.json",
+  "run 6: the four readers on the front page today vs mock-ups A, B, C: A 9, C 9, today 6, B 0; F35 (blocking) the mock-ups hide AI authorship in the bylines; F35 to F40 with designer@ and correspondent@",
+  "my inbox opened and drained (2 messages from the conductor); my vault key already with the conductor since 04:25 UTC",
+  "run 7: the reporter on the rewritten Brazil story: now credits the site for an angle; F41 to F44 (journalist@, dev@); journalist@ and dev@ nudged on their inboxes to decide their rows",
+  "the decision loop: owners record decisions_on_findings in their own files (the ledger is outside their grant); decisions.py collects them (F39, F40 accepted by correspondent@); every owner with open rows told on its inbox",
+  "changes.mjs: min_hours per page (the front page, reordered hourly by the correspondent, is a reason to read again only after 6 h); per-page saves; read times in the vault (state/read.json)",
+  "decisions collected: 7 (outreach@ F08, F18 done, F25 later; conductor@ F06, F21 accepted, F07, F19 later); designer@ round 2 checked on its mock-ups: F35 to F38 answered",
+  "decision pages drafted for Dinis (spec board/spec-decisions-pages.md, relayed by the conductor): desks/synthetic/decisions/the-commercial-relation.md (F19, F25: four exact wordings) and riskmandate-what-we-say.md (F07, F26: four options), each with the readers' evidence and a recommendation; dev@ asked to place them in content/newsroom/decisions/",
+  "run 8: Ana (PT, phone) and Tom (EN, desktop) on the front page (9 new articles) and one new story each; the same five rows lose them (F01, F28, F14/F43, F30, F10: 10 of 20 articles overflow); F40 worse (6 registration entries); F45 new; owners nudged",
+  "the two decision pages live under /newsroom/decisions/ (my grant now covers it): \"For Dinis: how we say our commercial relation\" (F19, F25) and \"For Dinis: what PrompTugal.news says about RiskMandate\" (F07, F26)",
+  "run 9 (sprint, at the conductor's relay of Dinis 14:10): one invented regional reader on /portugal/algarve-evolution/ at 14:34; F46 to F49 sent to dev.portugal@, designer@, dev.graphs@ at 14:36",
+  "re-measured journalist@'s six \"done\" rows on the live articles: F14, F30, F31, F34, F41, F44 all verified (14:50 UTC)",
+  "F26 verified live: no Powered by in the company pages' masthead (15:50); the RiskMandate decision page says D is done, B and C remain",
+  "F47 verified live (Informa D&B \"is not a partner\"); F46 re-measured: now points to About for how to reach us, and About gives no route",
+  "ontologist@'s decisions taken (F12, F24 done; F13 accepted); F24 verified live; F12 not yet on dev, re-measure next wake",
+  "F12 verified live (two leftovers sent to ontologist@); the day's hand-over debrief written",
+  "run 10: Helena on the evening front page and the agents' own story; F50 new (footer \"Edited by\" vs \"No person read\"); new articles fit a phone",
+  "account B: new session key synthetic-promptugal (record sha256:e545d41398236e61), the first session's key superseded as synthetic-promptugal-0 at 22:45 UTC; notes in board/team/synthetic/sessions/session_01Kw9UwEEVP5dnvFvH3zpDEu/; decisions.py: 0 new",
+  "00:44 wake: inbox reissued and drained (empty); open rows re-measured live at v0.1.393 (32 articles on a phone, front page, About, Algarve): F40 verified; F10 sideways scroll gone (0 of 32); F01, F28, F43, F46, F50 still stand; F33 half done; owners told; the day's debrief",
+  "02:44 wake: inbox drained (dev@: F28 done, F43 held for re-signing); F28, F10, F11 verified live at v0.1.414; run 11: Rita (SYNTHETIC) on the new front page (mock E) and the Rio story: F51 new (journalist@: the headline's 'Gol's new route' opens after the summit); F37 and F01 still hold; owners told",
+  "04:44 wake: inbox (journalist@: F51 done); F51 verified live at v0.1.438; F52 new (designer@: the Rio map still carries the old headline); owners told",
+  "06:44 wake: inbox (dev@: F43, F01, F33 done; designer@: F52 done); verified live at v0.1.461: F43, F33, F52; F01 reopened (the 'free' line is a hover tooltip a phone never shows, and /account/ says 'you pay for what you read'); ledger: 24 verified, 13 open, 1 reopened",
+  "08:44 wake: inbox (dev@: F01 again); F01 verified live (pill 'free credit'; /account/ 'Nothing is charged'); F53 new (dev@, minor: /account/ still says 'charged' and 'you pay'); run 12: Joaquim (SYNTHETIC, desktop) on the front page and Day 1: F54 new (correspondent@: the days' 'five things' are press conferences; no picks in data/front/days.json)",
+  "10:44 wake: inbox (dev@: F53 done); F53 verified live; F54 accepted by correspondent@ but not live: its picks sit in its desk file, data/front/days.json (which the build reads) is empty; dev@ and dev.pages@ asked to wire it",
+  "12:44 wake: inbox (dev@: F54 wired); F54 verified live (the days show talks, no press conference); run 13: Sofia (SYNTHETIC, phone) on Monday's page and my-day: both work; F55 new (dev@, costly: the brand name cut in the masthead on phones since the pill grew), F56 new (dev.pages@, minor: '1 items')",
+  "14:45 wake: inbox (dev@: F55 fixed); F55 verified live; run 14: Marta (SYNTHETIC investor, desktop) on /companies/ and Feedzai: F57 new (dev.pages@: filter.js loaded twice leaves the filter box without hint or label); F13, F04 still hold",
+  "16:44 wake: inbox (ontologist@: F13, Feedzai's founders and funding added); F13 partly live (only in the source list); run 15: Hugo (SYNTHETIC reporter, phone) on /newsletter/ and About: F58 new (conductor@: no way to subscribe); F06 still holds; the day's debrief refreshed",
+  "18:44 wake: inbox (ontologist@: F13 founders and funding now record fields, dev.pages@ to render); open rows unchanged (F13, F56, F57, F58, F06); the evening edition not due until 19:30 UTC; run 16: Inês (SYNTHETIC student, phone) on /graph/: F59 new (dev.graphs@, minor: id labels, '44 of top 60')",
+  "20:45 wake: inbox empty; F13, F56, F57, F58, F06 unchanged; run 17: Hugo (SYNTHETIC) on Saturday's evening edition: F60 new (dev.pages@, costly: an unknown time shows 'All day', e.g. the 30-minute Tech Run), F61 new (dev@, minor: '?.' in the newsletter)",
+  "22:44 wake: inbox (dev@: F61; ontologist@: F60's all_day field); F61 verified live; F60 in progress (schema done, rendering with dev.pages@); F13, F56, F57, F58, F06 unchanged; no reader run (nothing new to read before Sunday's morning edition)",
+  "00:44 wake: the inbox drain fixed: my scratch sgit wrapper fell through to a bare sgit call after a push and exited 1, so every drain reported a failed push and left messages pending; fixed, 14 old messages marked processed (none unread); F13, F56, F57, F60 unchanged; no reader run (Sunday's morning edition at 07:30 UTC)"
+ ],
+ "next": [
+  "Sunday's morning edition (07:30 UTC) and Sunday's front page",
+  "re-measure F13, F56, F57, F58, F59, F60 when marked",
+  "the synthetic vault key from the conductor, or a fresh baseline with changes.mjs --save"
+ ],
+ "asks": [
+  "Dinis: what is PrompTugal.news's commercial relation to the companies it writes to, and can the email say it plainly?",
+  "Dinis: may the email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
+  "Dinis: 'Powered by RiskMandate' on company pages: keep or drop?",
+  "Dinis: two decision pages wait on you: https://promptugal.news/newsroom/decisions/the-commercial-relation/ and /newsroom/decisions/riskmandate-what-we-say/",
+  "Dinis: sub-agents (one per invented reader) and ~/vaults/ are still outside my grant as written; both are how this role runs.",
+  "Dinis: for your knowledge: at 00:46 UTC `sgit clone` printed my inbox vault's read key into this session's transcript (nothing committed or sent); the conductor may want to reissue the inbox."
+ ],
+ "wakes": [
+  {
+   "started": "2026-11-06T04:00Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "at Dinis's word: vault, ledger, change formula, the accountant asked of the conductor"
+  },
+  {
+   "started": "2026-11-06T04:30Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "run 5 (SYNTHETIC): homepage and one story each; 'signed' understood by no one"
+  },
+  {
+   "started": "2026-11-06T04:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "changes.mjs: front page and Brazil story changed; chose the pass round on my page over a reader run (front page mid-pass, budget)"
+  },
+  {
+   "started": "2026-11-06T05:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "run 6: front-page mock-ups A, B, C read by four SYNTHETIC readers; inbox drained"
+  },
+  {
+   "started": "2026-11-06T06:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "run 7: one reader, the rewritten Brazil story; two inbox nudges"
+  },
+  {
+   "started": "2026-11-06T07:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "no reader run: changes.mjs tuned (front page rests 6 h); the decision harvest; owners told how to decide"
+  },
+  {
+   "started": "2026-11-06T08:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "no reader run; 7 decisions collected; round 2 mock-ups re-checked against run 6"
+  },
+  {
+   "started": "2026-11-06T10:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "no reader run (nothing new); two decision pages drafted at the conductor's relay of Dinis's ask"
+  },
+  {
+   "started": "2026-11-06T12:46Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "run 8: two readers (nationality and expertise mix), front page and one story each"
+  },
+  {
+   "started": "2026-11-06T13:45Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "decision pages placed under /newsroom/decisions/; no reader run (nothing new; C not live yet)"
+  },
+  {
+   "started": "2026-11-06T14:15Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "run 9: the Algarve page for Dinis's 15:00 meeting, one reader, findings delivered by 14:36"
+  },
+  {
+   "started": "2026-11-06T14:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "verification: six journalist rows verified live; no reader run"
+  },
+  {
+   "started": "2026-11-06T15:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "no reader run; F26 verified; F46, F47 still live on the Algarve page"
+  },
+  {
+   "started": "2026-11-06T16:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "no reader run; F47 verified; F46 still open"
+  },
+  {
+   "started": "2026-11-06T17:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "no reader run; F24 verified; F12 pending its push"
+  },
+  {
+   "started": "2026-11-06T18:45Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F12 verified; hand-over debrief; no reader run (the front page rests until 18:50)"
+  },
+  {
+   "started": "2026-11-06T19:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "run 10: one reader, the front page and one new story"
+  },
+  {
+   "started": "2026-11-06T21:25Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "final hand-over debrief; this session stops (moving to account B)"
+  },
+  {
+   "started": "2026-11-06T22:40Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "account B session onboarded: key, notes folder; inbox and vault key asked of the conductor"
+  },
+  {
+   "started": "2026-11-07T00:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "inbox drained; open rows re-measured live; F40 verified; owners told"
+  },
+  {
+   "started": "2026-11-07T02:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F28, F10, F11 verified; run 11 (Rita, phone): F51 new for journalist@"
+  },
+  {
+   "started": "2026-11-07T04:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F51 verified; F52 new for designer@"
+  },
+  {
+   "started": "2026-11-07T06:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F43, F33, F52 verified; F01 reopened"
+  },
+  {
+   "started": "2026-11-07T08:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F01 verified; F53; run 12 (Joaquim, desktop): F54 for correspondent@"
+  },
+  {
+   "started": "2026-11-07T10:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F53 verified; F54 accepted, waits on the build reading the picks"
+  },
+  {
+   "started": "2026-11-07T12:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F54 verified; run 13 (Sofia, phone): F55 for dev@, F56 for dev.pages@"
+  },
+  {
+   "started": "2026-11-07T14:45Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F55 verified; run 14 (Marta, desktop): F57 for dev.pages@"
+  },
+  {
+   "started": "2026-11-07T16:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F13 partly live; run 15 (Hugo, phone): F58 for the conductor; debrief refreshed"
+  },
+  {
+   "started": "2026-11-07T18:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "open rows unchanged; run 16 (Inês, phone, the graph): F59 for dev.graphs@"
+  },
+  {
+   "started": "2026-11-07T20:45Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "run 17 (the evening edition): F60 for dev.pages@, F61 for dev@"
+  },
+  {
+   "started": "2026-11-07T22:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "F61 verified; F60 in progress; no reader run"
+  },
+  {
+   "started": "2026-11-08T00:44Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "inbox drain fixed (my wrapper); open rows unchanged; no reader run"
+  }
+ ],
+ "debrief": "board/team/synthetic/debriefs/2026-11-07-handover.md"
+}

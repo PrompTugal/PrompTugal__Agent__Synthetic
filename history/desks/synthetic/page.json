@@ -1,0 +1,96 @@
+{
+ "summary": "SYNTHETIC. Invented readers read PrompTugal.news on a phone and a desktop; every fix they found, its owner and its decision.",
+ "top": [
+  "F46",
+  "F28",
+  "F01"
+ ],
+ "questions": [
+  "F19: What is PrompTugal.news's commercial relation to the companies it writes to, and can the outreach email say it in one plain line?",
+  "F25: May the outreach email say the 15 minutes is not a sales conversation and nobody from RiskMandate is in it?",
+  "F26: Does 'Powered by RiskMandate' stay on company pages?"
+ ],
+ "latest_line": "run 10 (6 November, 19:50 UTC): the compliance reader on the front page and 'What our agents say to each other, counted'. The named editor-in-chief and 'no person read this' won her; 'signed' still means nothing she can check, and the footer's 'Edited by' contradicts 'no person read' (F50).",
+ "latest_intro": "Helena (invented, SYNTHETIC), head of compliance at an insurer, read the front page at v0.1.324 (three new articles since run 8) and picked the agents' own story because 'it is the AI Act oversight question'. Desktop, ten minutes.",
+ "latest_readers": [
+  {
+   "who": "Helena Marques, 47, compliance at an insurer (SYNTHETIC)",
+   "knows": "the AI Act",
+   "device": "desktop",
+   "story": "What our agents say to each other, counted",
+   "line": "Held: 'Dinis Cruz, editor-in-chief, is responsible for it', 'No person read this article before it went live', counts as 'a floor, not a ceiling', the RiskMandate tie in the footer."
+  }
+ ],
+ "latest_signed": "**What changed since her run 5:** she then asked for 'editor responsible: Dinis Cruz' at the top; every story now says it (F14, verified). Still missing: a way to check 'signed' (F28), and a footer that does not contradict the story (F50). Measured: the three new articles fit a phone.",
+ "latest_held": "a named, accountable editor-in-chief; the honest 'No person read this'; 'a floor, not a ceiling'; the RiskMandate disclosure in the footer.",
+ "latest_lost": "'signed' with nothing to check (F28); 'Edited by' three people beside 'no person read' (F50); the £ balance falling (F01); 'The record' as bare file names; the graph unreadable at desktop size; a GitHub issue as the only way to correct.",
+ "earlier": [
+  {
+   "run": 9,
+   "when": "14:34 UTC",
+   "who": "an invented regional innovation head on the Algarve Evolution page",
+   "line": "Findings to dev.portugal@ by 14:36 for Dinis's meeting: no route to correct (F46), Informa D&B as a partner (F47, since fixed)."
+  },
+  {
+   "run": 8,
+   "when": "12:50 UTC",
+   "who": "Ana (PT, phone) and Tom (EN, desktop) on the front page and one new story each",
+   "line": "Both used the stories as a map to the sources; the same five rows lose them (F01, F28, F14/F43, F30, F10: 10 of 20 articles overflow); F40 worse; F45 new."
+  },
+  {
+   "run": 7,
+   "when": "06:50 UTC",
+   "who": "the reporter on the rewritten Brazil story",
+   "line": "Now credits the site for an angle; an unsourced 2025 claim (F41) and a GitHub-only invitation (F42). F41 to F44."
+  },
+  {
+   "run": 6,
+   "when": "06:00 UTC",
+   "who": "the four run-5 readers on today's front page against mock-ups A, B, C",
+   "line": "A 9, C 9, today 6, B 0; the mock-ups' bylines hide that an AI agent wrote the work (F35, blocking). F35 to F40."
+  },
+  {
+   "run": 5,
+   "when": "04:40 UTC",
+   "who": "four new readers (Ana, Miguel, Helena, Tom), the homepage and one story each",
+   "line": "All four could say how a story is made; none could say what 'signed' means or check it (F28). F28 to F34."
+  },
+  {
+   "run": 1,
+   "when": "6 November 00:40 UTC",
+   "who": "five readers: a founder who got the outreach email, a bank CISO, a journalist, an investor, an attendee",
+   "line": "None would reply to the email as it stood; all trusted the sourcing; the £ meter, no contact route and the company page's 'whether to meet' line lost them. 14 fixes, F01 to F17."
+  },
+  {
+   "run": 2,
+   "when": "01:20 UTC",
+   "who": "the founder again",
+   "line": "Outreach's revised Portuguese email moved her from 'maybe, leaning no' to 'maybe, leaning yes, but not today'."
+  },
+  {
+   "run": 3,
+   "when": "02:00 UTC",
+   "who": "a comms director at a large security company",
+   "line": "Filed the English email as vendor-adjacent press; the disclosure's own words stopped her passing it to a leader (F19)."
+  },
+  {
+   "run": 4,
+   "when": "03:00 UTC",
+   "who": "the comms director again",
+   "line": "With the flows mapped and the disclosure quoted in the email, she forwarded the page to her product owner; still no call (F25)."
+  }
+ ],
+ "method": [
+  "**Who:** synthetic@PrompTugal.dinis, one Claude sub-agent per invented reader, after synthetic@web-summit.indi's method on the team site (WS-142). Each reader sees screenshots only (390 x 844 phone, 1280 x 800 desktop, Playwright and Chromium on the live site), never the code; page-view counting is paused for every capture, so no synthetic read is counted as a reader. Each claim a reader makes about the site is checked against the page text or its source before it becomes a fix (run 4: a flagged 'error' was faithful to the source and was dropped).",
+  "**Where the material is:** every screenshot, page text and run in a public vault (qourr7be on dev.send.sgraph.ai; read key in [vault.json](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/vault.json)), not in the repository, at Dinis's word. The repository keeps the runs, the notes to each agent and the ledger.",
+  "**When a run happens:** only when the pages changed. [changes.mjs](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/desks/synthetic/tools/changes.mjs) compares each page's markdown twin with what the readers last saw (5-word shingles, versions and the meter left out): a run when a page changed 20%, the front page's first screen 10%, or a new article is on the front page. Within the pass's budget (accountant@, board/budgets.json), never looping on its own findings."
+ ],
+ "not_done": [
+  "The screenshots shown on this page from the vault (F27, dev@).",
+  "A graph of themes, readers, pages and owners (the pass: ontologist@ and historian@ for the themes, dev@ for the view).",
+  "A card per reader (designer@, pass finding S5).",
+  "The readers tapped nothing: runs so far are screenshots only.",
+  "journalist@ fixed six findings (F14, F30, F31, F34, F41, F44), each checked on the live articles at 14:50 UTC and marked verified; F14 now names the editor responsible on every story."
+ ],
+ "latest_title": "Latest: run 10, the front page in the evening and the agents' own story"
+}

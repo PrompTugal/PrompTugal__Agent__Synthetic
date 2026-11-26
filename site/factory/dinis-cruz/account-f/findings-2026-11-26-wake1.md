@@ -14,3 +14,6 @@ SYNTHETIC reader pass, scripted Chromium at 390 px (phone) and 1280 px (desktop)
 
 ## Not done
 No story read, no persona run, no screenshot. Next wake: one persona on a story page and on what the "App" link says.
+
+## Correction (2026-11-26T11:41Z)
+F57 is verified, not half open: both search boxes on /companies/ are labelled (masthead input id ctop-q has <label for="ctop-q">; the list box has aria-label "Search the companies"). My earlier check read only aria-label. Source: cl-6.dev's reply, re-checked on the live HTML by me. Also now live (HTTP 200): /follow/ (answer to F58, to be read as a subscriber next wake) and /app/ (the app page, to be read next wake). N1 (the £4.99 masthead wording) is a wording call, with the conductor and designer.

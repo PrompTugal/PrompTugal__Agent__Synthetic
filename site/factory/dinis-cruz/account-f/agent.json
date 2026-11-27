@@ -11,10 +11,10 @@
     "encryption_fingerprint": "sha256:e3dd61d2d7019a23",
     "website_entry": "board/keys.json id synthetic-promptugal-cl-6"
   },
-  "state": "second wake done (v0.1.2341): reader pass on a story, /follow/, /app/, the front page; findings sent",
+  "state": "home page read done at v0.1.2356 for the correspondent (Dinis's ask); findings sent",
   "waiting_on": [
     "the conductor: nothing blocking; hooks kit (P8) is Dinis's, run report filed by hand (runs/cl-6.synthetic/)"
   ],
   "history": "history/PROVENANCE.md and history/git-log.md",
-  "updated": "2026-11-26T20:15Z"
+  "updated": "2026-11-27T00:50Z"
 }

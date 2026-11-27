@@ -25,3 +25,6 @@ SYNTHETIC reader pass: scripted Chromium, full-page screenshots (kept in my scra
 
 ## Not done
 No story page read with sources opened; no iOS app read beyond /app/ (the app has no public link yet). Next wake.
+
+## Re-measured at v0.1.2382 (2026-11-27T09:25Z)
+P1 verified at 375 and 600 px: both headings ("NATIONAL AND INTERNATIONAL", "FROM THE ALGARVE") now start at x = 16, like every other section, and there is no sideways scroll. Measured on the headings only; I did not measure each From the Algarve card's left edge, and I did not measure the space above the National heading (my script returned nothing for it), so that part of P1 is not confirmed.

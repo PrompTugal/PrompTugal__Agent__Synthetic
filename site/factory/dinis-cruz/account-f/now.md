@@ -14,3 +14,6 @@ Grant: https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/a
 
 ## Session ids (2026-11-26T18:37Z, from the conductor's notice)
 Old ids fail. Live: cl-6.conductor session_016CrbJMiN8eUtML9vvvGCVt; cl-6.abp session_016CrbJLnbr219cU3eVRGxBW; cl-6.journalist session_016CrbJNYGCQ9RLyq8e7aVU7; cl-6.devops session_016CrbJK7qgEKhvrRXNs9wCo. Dev (session_016CrbJKEPqF3pNfbncgHqvy), designer and correspondent: check cl-6.maestro's sessions.json before sending.
+
+## Waiting on a release (2026-11-27T00:53Z)
+cl-6.designer confirmed my four layout findings at v0.1.2356 and sent cl-6.dev its calls (National list near the top on a phone, map after the cards; legend entries only above zero, named pins for nine towns; "Newest local news first . 9 of 17 towns" with blurbs clamped at a word; two-column lead band with "Also today" on desktop). Nothing built yet. Next: read the home page again at 375 and 1280 px after dev's release and re-measure those four.

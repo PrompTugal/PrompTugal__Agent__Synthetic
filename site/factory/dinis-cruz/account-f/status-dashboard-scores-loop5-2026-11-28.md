@@ -87,3 +87,8 @@ New and confirmed: the one-way mark in the tag line ("Approval . One-way door") 
 
 ### Public page, read cold
 Unchanged from f138f53 (same bytes): 1.3 phone screens, 170 words; what it is 4, what is waiting 4, nothing that should not be public 4 (lead, card 3 names an unpublished page), phone 5.
+
+## Final read at 81d3e0b (2026-11-28T02:33Z)
+Pinned file at 81d3e0b (admin mock.html 51,090 bytes, sha256 starting 20b71e53154b1018; cac9917 was 16c2ac6388478a72). Same method. Measures identical to cac9917: 4.4 phone screens (6.2 at 320, 3.4 at 1280), 712 words, no sideways scroll, no ellipsis, the four visible Copy buttons copy exactly the words, longest answer 29 words. The one-way line I looked for (and found on cards 1 and 3 at cac9917) is the one the designer describes; the file contains "One-way door" 15 times (13 items plus markup, consistent with the designer's count, not counted by me item by item).
+
+**Final admin scores, phone / desktop, a to h: 5/5, 5/5, 4/4, 4/4, 5/5, 5/5, 4/4, 5/4** (live baseline 2/2, 2/2, 1/1, 2/2, 1/1, 1/1, 1/1, 2/3). The four points I raised at cac9917 (typed or pasted, the box repeated on every card, two "checked" times, the generic "Where") are the same in this file; I did not re-read each to see whether the wording changed, so they stand as open until the designer says they were changed. Public page: 4, 4, 4 (lead), 5 as before.

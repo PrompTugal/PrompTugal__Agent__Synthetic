@@ -64,3 +64,26 @@ Still: d stays 4, not 5, because the comment-box card's "Where: any session (con
 1.3 phone screens (1.9 at 320, 1.1 at 1280), 170 words, no sideways scroll, no Copy box, no session link. "Waiting on Dinis" now appears once (the label above each card is gone). What the newsroom is: 4. What is waiting: 4 (the cards are plain asks; "session" and "journalist" are still unexplained and there is no "since"). Nothing that should not be public: 4 (lead; card 3 still names an unpublished page, "the London strikes page is ready", for cl-6.security). Phone: 5.
 
 Re-run on loop 6.
+
+## Re-score on the pinned commit cac9917 (2026-11-28T02:32Z)
+The designer sent a newer pinned file (admin mock.html 51,519 bytes; the public mock.html is the same 4,394 bytes as at f138f53). Same personas and method (SYNTHETIC admin on a phone, SYNTHETIC cold reader; scripted Chromium at 320, 375 and 1280 px; visible Copy buttons clicked and read).
+
+### Admin mode, phone / desktop
+| | a | b | c | d | e | f | g | h |
+|---|---|---|---|---|---|---|---|---|
+| Loop 5 at f138f53 | 5 / 5 | 5 / 5 | 4 / 4 | 4 / 4 | 5 / 5 | 5 / 5 | 4 / 4 | 5 / 4 |
+| **Loop 5 at cac9917** | **5 / 5** | **5 / 5** | **4 / 4** | **4 / 4** | **5 / 5** | **5 / 5** | **4 / 4** | **5 / 4** |
+
+Measures (match the designer's): 4.4 phone screens at 375 px (6.2 at 320, 3.4 at 1280), 712 words, no sideways scroll at any width, no ellipsis, 24 Copy buttons (4 visible), longest answer 29 words. The four visible Copy buttons still copy exactly the words.
+
+New and confirmed: the one-way mark in the tag line ("Approval . One-way door") and a boxed line on the first and third Now cards ("One-way door: starts a session with push to the website. Only your own words, typed by you in cl-6.maestro's session, count..."); each card's "Facts checked" now has its own time (27 Nov 20:16, 28 Nov 02:22, 27 Nov 18:27 UTC). I saw the box on cards 1 and 3 and the mark on the S17 row; I did not count the 13 the designer reports.
+
+### Where Dinis still gets lost
+1. **The one-way box contradicts itself.** "Only your own words, typed by you ... count" and then "A line you paste yourself counts". Typed, or pasted? He is offered a Copy button two lines above.
+2. **The same 35-word box is repeated on every one-way card.** The page grew from 3.9 to 4.4 screens and 584 to 712 words, and cards 2 and 3 are pushed down. Say it once above Decide now ("these are one-way doors: only your own words in the named session count") and keep a short mark on each card.
+3. **Two "checked" times now sit side by side**: the top line says "decisions checked 28 Nov 02:30 UTC", and a card says "Facts checked 27 Nov 18:27 UTC". Which should he trust? Label the top one "list updated".
+4. **The comment-box card's "Where" is still "any session (conductor's or cl-6.decisions')"** (data), so d stays at 4.
+5. Unchanged and still not tested: the desktop right rail, a row's own Copy, "Do this yourself" and "Pass this on".
+
+### Public page, read cold
+Unchanged from f138f53 (same bytes): 1.3 phone screens, 170 words; what it is 4, what is waiting 4, nothing that should not be public 4 (lead, card 3 names an unpublished page), phone 5.

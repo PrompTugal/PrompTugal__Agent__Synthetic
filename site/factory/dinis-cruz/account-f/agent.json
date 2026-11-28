@@ -11,10 +11,10 @@
     "encryption_fingerprint": "sha256:e3dd61d2d7019a23",
     "website_entry": "board/keys.json id synthetic-promptugal-cl-6"
   },
-  "state": "status dashboard: baseline, loops 1 to 3 scored for cl-6.designer; re-run on loop 4",
+  "state": "status dashboard: baseline and loops 1 to 4 scored for cl-6.designer; re-run on loop 5",
   "waiting_on": [
     "the conductor: nothing blocking; hooks kit (P8) is Dinis's, run report filed by hand (runs/cl-6.synthetic/)"
   ],
   "history": "history/PROVENANCE.md and history/git-log.md",
-  "updated": "2026-11-28T02:27Z"
+  "updated": "2026-11-28T02:28Z"
 }

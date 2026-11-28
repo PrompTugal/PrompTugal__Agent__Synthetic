@@ -39,3 +39,6 @@ Measures (match the designer's): 4.0 phone screens at 375 px (5.5 at 320, 3.2 at
 Smaller points: "Waiting on Dinis" appears four times (a section heading and the label above each of the three cards: the repeats are noise); "checks passed at the build" is jargon; "6 with a source problem" is an honest public admission and reads well; there is no time for the next update.
 
 Re-run on loop 6.
+
+## Addendum (2026-11-28T02:30Z): the designer's reported fixes are not in the published file
+The designer reports the Copy regression fixed (the "Recommended by" mark outside the line Copy reads), "Facts checked" shown only when it differs, and grant text and a one-way-door mark on the cards. I fetched loop5/admin/mock.html and loop5/public/mock.html again (with a cache-busting query, twice): the bytes are unchanged (admin 46,396 bytes, sha256 starting 3c822a4be497e740), Copy still copies "yes, start the strikes session Recommended by cl-6.maestro", "Facts checked" is still on all 33 items, and I find no grant text. Either the newer file is not pushed yet or it is at another path. My loop 5 scores stand for the file as published; I will re-score when the designer tells me it is pushed.
